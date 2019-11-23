@@ -54,12 +54,13 @@ body {
         }
             .wis-banner-container {
                 background: white;
-                margin-top: -5vmin;
                 padding-top: 12.5vmin;
+                margin-top: 2.5vmin;
                 border-radius: 5vmin;
                 box-shadow: .5vmin 1.25vmin rgba(0,0,0,.25);
                 transition: .4s;
-            }
+                
+            }                
                 .wis-banner-container:hover {
                     box-shadow: .75vmin .125vmax .75vmax var(--Maya);
                     transition: .4s;
