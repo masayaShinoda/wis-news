@@ -6,9 +6,9 @@ html {
     --head: 'Domine', serif;
     --body: 'Roboto', sans-serif;
     /* colors */
-    --Maya: #73C2FB;
-    --lighter: #F1F4FFFF;
-    --darker: #5858A7;
+    --Maya: #A17F5E;
+    --lighter: #7E9AB4;
+    --darker: #5e80a1;
     /* shadows */
     --button-shadow: .5vmin .75vmin rgba(0,0,0,.25);
     --text-shadow: .25vmin .5vmin rgba(0,0,0,.25);
@@ -87,7 +87,7 @@ body {
                 }
                     .nav-link:hover {
                         background: white;
-                        color: #73C2FB;
+                        color: var(--Maya);
                         transition: .4s;
                     }
         .mid-container-desktop {
@@ -99,11 +99,10 @@ body {
         }
             .caligraphy {
                 color: white;
-                margin-top: 2.75vmax;
-                font-family: 'Oleo Script', cursive;
+                font-family: 'Montserrat', sans-serif;
                 font-style: italic;
                 font-size: 7.5vmax;
-                text-shadow: .25vmin .25vmax .75vmin var(--lighter);
+                text-shadow: .425vmin .525vmax .75vmin var(--darker);
                 animation-name: caligraphy-appear;
                 animation-duration: 4s;
                 animation-fill-mode: forwards;
@@ -115,7 +114,10 @@ body {
                 font-family: 'Roboto', sans-serif;
                 font-size: 1.25vmax;
                 text-shadow: var(--text-shadow);
+                text-align: center;
+                line-height: 1.6;
                 color: white;
+                max-width: 27.5vmax;
             }
             .learn-more-button {
                 text-decoration: none;
@@ -150,8 +152,8 @@ body {
                 display: block;
                 width: 2.5vmax;
                 height: 2.5vmax;
-                border-bottom: .5vmax solid #21CBBA;
-                border-right: .5vmax solid #21CBBA;
+                border-bottom: .5vmax solid var(--lighter);
+                border-right: .5vmax solid var(--lighter    );
                 transform: rotate(45deg);
 
                 animation: animate 2s infinite;
