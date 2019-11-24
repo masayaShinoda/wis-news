@@ -283,7 +283,7 @@ body {
           }
           .post-module .thumbnail {
             background: #000000;
-            height: 37vmin;
+            height: 400px;
             overflow: hidden;
           }
           .post-module .thumbnail .date {
@@ -328,7 +328,7 @@ body {
             bottom: 0;
             background: #FFFFFF;
             width: 100%;
-            padding: 2.75vmin;
+            padding: 30px;
             -webkti-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -340,10 +340,14 @@ body {
           }
           .post-module .post-content .category {
             position: absolute;
+<<<<<<< HEAD
             top: -28px;
+=======
+            top: -34px;
+>>>>>>> parent of d6eb20d... changed most units from px to vmin
             left: 0;
             background: var(--Maya);
-            padding: 0.925vmin 1.40vmin;
+            padding: 10px 15px;
             color: rgb(240,240,240);
             font-size: 14px;
             font-weight: 600;
@@ -352,7 +356,7 @@ body {
           }
           .post-module .post-content .title {
             margin: 0;
-            padding: 0 0 0.925vmin;
+            padding: 0 0 10px;
             color: #333333;
             font-size: 26px;
             font-weight: 700;
@@ -360,10 +364,14 @@ body {
           }
           .post-module .post-content .sub_title {
             margin: 0;
-            padding: 0 0 1.85vmin;
+            padding: 0 0 20px;
             color: var(--darker);
             /*font-size: 20px;*/
+<<<<<<< HEAD
             font-size: 20px; /* maya code */
+=======
+            font-size: 18px; /* maya code */
+>>>>>>> parent of d6eb20d... changed most units from px to vmin
             font-weight: 400;
             font-family: var(--subhead); /* maya code */            
           }
@@ -375,11 +383,11 @@ body {
             font-family: var(--body); /* maya code */
           }
           .post-module .post-content .post-meta {
-            margin: 2.78vmin 0 0;
+            margin: 30px 0 0;
             color: #999999;
           }
           .post-module .post-content .post-meta .timestamp {
-            margin: 0 1.5vmin 0 0;
+            margin: 0 16px 0 0;
           }
           .post-module .post-content .post-meta a {
             color: #999999;
@@ -391,8 +399,13 @@ body {
             opacity: 1 !important;
           }
           .container {
+<<<<<<< HEAD
             max-width: 55vmax;
             min-width: 59.26vmin;
+=======
+            max-width: 800px;
+            min-width: 640px;
+>>>>>>> parent of d6eb20d... changed most units from px to vmin
           }
           .container:before,
           .container:after {
@@ -402,26 +415,26 @@ body {
           }
           .container .column {
             width: 50%;
-            padding: 0 2.3vmin;
+            padding: 0 25px;
             -webkti-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
             float: left;
           }
           .container .column .demo-title {
-            margin: 0 0 1.39vmin;
+            margin: 0 0 15px;
             color: #666666;
             font-size: 18px;
             font-weight: bold;
             text-transform: uppercase;
           }
           .container .info {
-            width: 27.77vmin;
-            margin: 4.63vmin auto;
+            width: 300px;
+            margin: 50px auto;
             text-align: center;
           }
           .container .info h1 {
-            margin: 0 0 1.39vmin;
+            margin: 0 0 15px;
             padding: 0;
             font-size: 24px;
             font-weight: bold;
