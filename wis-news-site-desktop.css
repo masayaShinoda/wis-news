@@ -342,7 +342,11 @@ body {
             position: absolute;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             top: -28px;
+=======
+            top: -34px;
+>>>>>>> parent of d6eb20d... changed most units from px to vmin
 =======
             top: -34px;
 >>>>>>> parent of d6eb20d... changed most units from px to vmin
@@ -373,7 +377,11 @@ body {
             /*font-size: 20px;*/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             font-size: 20px; /* maya code */
+=======
+            font-size: 18px; /* maya code */
+>>>>>>> parent of d6eb20d... changed most units from px to vmin
 =======
             font-size: 18px; /* maya code */
 >>>>>>> parent of d6eb20d... changed most units from px to vmin
@@ -409,8 +417,13 @@ body {
           .container {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             max-width: 55vmax;
             min-width: 59.26vmin;
+=======
+            max-width: 800px;
+            min-width: 640px;
+>>>>>>> parent of d6eb20d... changed most units from px to vmin
 =======
             max-width: 800px;
             min-width: 640px;
