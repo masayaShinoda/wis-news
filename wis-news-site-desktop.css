@@ -257,8 +257,8 @@ body {
             z-index: 1;
             display: block;
             background: #FFFFFF;
-            min-width: 25vmin;
-            height: 43.5vmin;
+            min-width: 270px;
+            height: 470px;
             -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
             -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
             box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -288,13 +288,13 @@ body {
           }
           .post-module .thumbnail .date {
             position: absolute;
-            top: 1.85vmin;
-            right: 1.85vmin;
+            top: 20px;
+            right: 20px;
             z-index: 1;
             background: var(--Maya);
-            width: 5vmin;
-            height: 5vmin;
-            padding: 1.15vmin 0;
+            width: 55px;
+            height: 55px;
+            padding: 12.5px 0;
             -webkit-border-radius: 100%;
             -moz-border-radius: 100%;
             border-radius: 100%;
@@ -306,11 +306,11 @@ body {
             box-sizing: border-box;
           }
           .post-module .thumbnail .date .day {
-            font-size: 1.66vmin;
+            font-size: 18px;
             font-family: var(--head); /* maya code */
           }
           .post-module .thumbnail .date .month {
-            font-size: 1.11vmin;
+            font-size: 12px;
             text-transform: uppercase;
             font-family: var(--body); /* maya code*/
           }
@@ -340,12 +340,12 @@ body {
           }
           .post-module .post-content .category {
             position: absolute;
-            top: -3.2vmin;
+            top: -28px;
             left: 0;
             background: var(--Maya);
             padding: 0.925vmin 1.40vmin;
             color: rgb(240,240,240);
-            font-size: 1.3vmin;
+            font-size: 14px;
             font-weight: 600;
             text-transform: uppercase;
             font-family: var(--subhead); /* maya code */
@@ -354,7 +354,7 @@ body {
             margin: 0;
             padding: 0 0 0.925vmin;
             color: #333333;
-            font-size: 2.4vmin;
+            font-size: 26px;
             font-weight: 700;
             font-family: var(--head); /* maya code */
           }
@@ -363,14 +363,14 @@ body {
             padding: 0 0 1.85vmin;
             color: var(--darker);
             /*font-size: 20px;*/
-            font-size: 1.66vmin; /* maya code */
+            font-size: 20px; /* maya code */
             font-weight: 400;
             font-family: var(--subhead); /* maya code */            
           }
           .post-module .post-content .description {
             display: none;
             color: #555555;
-            font-size: 1.3vmin;
+            font-size: 14px;
             line-height: 1.8em;
             font-family: var(--body); /* maya code */
           }
@@ -391,7 +391,7 @@ body {
             opacity: 1 !important;
           }
           .container {
-            max-width: 74vmin;
+            max-width: 55vmax;
             min-width: 59.26vmin;
           }
           .container:before,
@@ -411,7 +411,7 @@ body {
           .container .column .demo-title {
             margin: 0 0 1.39vmin;
             color: #666666;
-            font-size: 1.66vmin;
+            font-size: 18px;
             font-weight: bold;
             text-transform: uppercase;
           }
@@ -423,13 +423,13 @@ body {
           .container .info h1 {
             margin: 0 0 1.39vmin;
             padding: 0;
-            font-size: 2.22vmin;
+            font-size: 24px;
             font-weight: bold;
             color: #333333;
           }
           .container .info span {
             color: #666666;
-            font-size: 1.11vmin;
+            font-size: 12px;
           }
           .container .info span a {
             color: #000000;
