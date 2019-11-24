@@ -7,12 +7,12 @@ html {
     --body: 'Roboto', sans-serif;
     --subhead: 'Work Sans', sans-serif;
     /* colors */
-    --Maya: #A17F5E;
-    --lighter: #7E9AB4;
-    --darker: #5e80a1;
+    --Maya: #3B4259;
+    --lighter: #D5DFF2;
+    --darker: #939EBF;
     /* shadows */
-    --button-shadow: .5vmin .75vmin rgba(0,0,0,.25);
-    --text-shadow: .125vmin .25vmin rgba(0,0,0,.25);
+    --button-shadow: .5vmin .75vmin rgba(38,33,36,0.5);
+    --text-shadow: .125vmin .15vmin rgba(38,33,36,0.5);
 }
 ::selection {
     background: var(--darker);
@@ -31,7 +31,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
     .parent-container-desktop {
         display: flex;
@@ -60,15 +59,20 @@ body {
                 margin-top: 2.5vmin;
                 border-radius: 5vmin;
                 box-shadow: .5vmin 1.25vmin rgba(0,0,0,.25);
-                transition: .4s;
-                
-            }                
+                transition: .4s;              
+                animation-name: logo-banner-appear;
+                animation-play-state: forward;
+                animation-duration: 1.5s;  
+            }         
+              @keyframes logo-banner-appear {
+                0% {margin-bottom: 10vmax;}
+              }     
                 .wis-banner-container:hover {
                     box-shadow: .75vmin .125vmax .75vmax var(--Maya);
                     transition: .4s;
                 }
                 .wis-banner-image {
-                    max-width: 12.5vmin;
+                    max-width: 5vmax;
                     border-radius: 5vmin;
                 }
             .nav-links-container {
@@ -77,8 +81,7 @@ body {
                 max-width: 15.625vmax;
                 animation-name: nav-links-appear;
                 animation-duration: 3s;
-                animation-fill-mode: forwards;
-                
+                animation-fill-mode: forwards;                
             }
                 @keyframes nav-links-appear {
                     0% {margin-right: -25vmax;};
@@ -90,7 +93,6 @@ body {
                     margin-left: 1.75vmax;
                     font-size: 1.25vmax;
                     font-family: var(--head);
-                    font-weight: bold;
                     color: white;
                     background: var(--Maya);
                     box-shadow: var(--button-shadow);
@@ -110,6 +112,25 @@ body {
             justify-content: center;
             /*border: 1px solid red; /* debug */
         }
+            .frontpage-banner {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 1.25vmax 2.5vmax;
+              max-width: 65vmax;
+              /*border: 1px solid red; /* debug */
+              /*background: rgba(255,255,255,.925);*/
+              border-radius: 2.5vmax;
+              animation-name: rotate-z;
+              animation-duration: 1s;
+              animation-play-state: forward;
+            }
+              @keyframes rotate-z {
+                0% {transform: rotateZ(90deg);}
+              }
+              .front-page-banner-image {
+                max-width: 25vmax;
+              }
             .caligraphy {
                 color: white;
                 font-family: 'Kaushan Script', sans-serif;
@@ -131,16 +152,21 @@ body {
                 color: #555555;
                 max-width: 27.5vmax;
                 margin: 3.25vmax 0;
-            }                
-                
+                border-bottom: 0.125vmin solid var(--darker);
+            }                                
             .frontpage-subhead {
                 font-family: 'Roboto', sans-serif;
-                font-size: 1.25vmax;
+                font-size: 1.375vmax;
                 text-shadow: var(--text-shadow);
-                text-align: center;
+                /*text-align: center;*/
                 line-height: 1.6;
                 color: white;
                 max-width: 27.5vmax;
+                word-spacing: 1.6px;
+                /*background: rgba(255,255,255,.95);*/
+                background: var(--darker);
+                padding: 1.75vmax;
+                border-radius: 1.25vmax;
             }
             .learn-more-button {
                 text-decoration: none;
@@ -150,23 +176,23 @@ body {
                 font-family: var(--head);
                 font-weight: bold;
                 color: white;
-                background: var(--lighter);
+                background: var(--Maya);
                 box-shadow: var(--button-shadow);
+                text-shadow: var(--text-shadow);
                 border-radius: 1.25vmax;
                 transition: .4s;
             }
                 .learn-more-button:hover {
-                    color: var(--lighter);
+                    color: var(--darker);
                     background: white;
                 }
             .post-container {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: center;
-                padding: 2.5vmax;
+                padding: 1.25vmax;
                 width: 100vmax;
-                height: 100vmin; /* debug */
+                /*height: 200vmin; /* debug */
                 background: rgb(245,245,245);
                 
             }
@@ -184,8 +210,8 @@ body {
                 display: block;
                 width: 2.25vmax;
                 height: 2.25vmax;
-                border-bottom: .5vmax solid var(--Maya);
-                border-right: .5vmax solid var(--Maya);
+                border-bottom: .5vmax solid var(--lighter);
+                border-right: .5vmax solid var(--lighter);
                 transform: rotate(45deg);
 
                 animation: animate 1.7s infinite;
@@ -194,8 +220,8 @@ body {
                 animation-delay: -0.3s;
                 width: 2vmax;
                 height: 2vmax;
-                border-bottom: .425vmax solid var(--Maya);
-                border-right: .425vmax solid var(--Maya);
+                border-bottom: .425vmax solid var(--lighter);
+                border-right: .425vmax solid var(--lighter);
               }
               .arrow span:nth-child(3){
                 animation-delay: -0.4s;
@@ -223,7 +249,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-warp: wrap;
+            flex-wrap: wrap;
             /*border: 1px solid red; /* debug */
         }
         .post-module {            
