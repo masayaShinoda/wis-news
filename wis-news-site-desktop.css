@@ -122,14 +122,14 @@ body {
             /*background: rgba(255,255,255,.925);*/
             border-radius: 2.5vmax;
             animation-name: rotate-z;
-            animation-duration: 1s;
-            animation-play-state: forward;
+            animation-duration: 2s;
+            animation-play-state: forwards;
           }
             @keyframes rotate-z {
               0% {transform: rotateZ(90deg);}
             }
             .front-page-banner-image {
-              max-width: 25vmax;
+              max-width: 35vmax;
             }
           .caligraphy {
               color: white;
@@ -156,22 +156,23 @@ body {
           }                                
           .frontpage-subhead {
               font-family: 'Roboto', sans-serif;
-              font-size: 1.375vmax;
+              font-size: 1.25vmax;
               text-shadow: var(--text-shadow);
               /*text-align: center;*/
               line-height: 1.6;
               color: white;
-              max-width: 27.5vmax;
-              word-spacing: 1.6px;
+              max-width: 27.5vmax;              
               /*background: rgba(255,255,255,.95);*/
               background: var(--darker);
               padding: 1.75vmax;
               border-radius: 1.25vmax;
           }
           .learn-more-button {
+              display: flex;
+              align-items: center;
+              justify-content: center;
               text-decoration: none;
               padding: 1.5vmin 1.75vmax;
-              margin: 2.5vmax;
               font-size: 1.25vmax;
               font-family: var(--head);
               font-weight: bold;
@@ -181,6 +182,11 @@ body {
               text-shadow: var(--text-shadow);
               border-radius: 1.25vmax;
               transition: .4s;
+              max-width: 12.5vmax;
+              animation-name: learn-more-button-appear;
+              animation-duration: 2s;
+              animation-play-state: forwards;
+              
           }
               .learn-more-button:hover {
                   color: var(--darker);
@@ -204,31 +210,43 @@ body {
               flex-direction: column;
               align-items: center;
               transform: translate(-50%,-50%);
-              margin-left: 2.5vmax;
+              transform: rotateZ(-270deg);
+              animation-name: arrows-attention-grab;
+              animation-duration: 4s;
+              animation-play-state: forwards;
             }
+              @keyframes arrows-attention-grab {
+                0% {margin-left: 10vmax;}
+              }
             .arrow span{
               display: block;
-              width: 2.25vmax;
-              height: 2.25vmax;
+              width: 2vmax;
+              height: 2vmax;
               border-bottom: .5vmax solid var(--lighter);
               border-right: .5vmax solid var(--lighter);
               transform: rotate(45deg);
-
-              animation: animate 1.7s infinite;
+              animation: animate 2s infinite;
             }
-            .arrow span:nth-child(2){
-              animation-delay: -0.3s;
-              width: 2vmax;
-              height: 2vmax;
+            .arrow span:nth-child(1){
+              animation-delay: 0.5s;
+              width: 1.75vmax;
+              height: 1.75vmax;
               border-bottom: .425vmax solid var(--lighter);
               border-right: .425vmax solid var(--lighter);
             }
+            .arrow span:nth-child(2){
+              animation-delay: 0.75s;
+              width: 1.5vmax;
+              height: 1.5vmax;
+              border-bottom: .4vmax solid var(--lighter);
+              border-right: .4vmax solid var(--lighter);
+            }
             .arrow span:nth-child(3){
-              animation-delay: -0.4s;
-              width: 1.72vmax;
+              animation-delay: 1s;
+              width: 1.75vmax;
               height: 1.75vmax;
-              border-bottom: .325vmax solid var(--Maya);
-              border-right: .325vmax solid var(--Maya);
+              border-bottom: .425vmax solid var(--lighter);
+              border-right: .425vmax solid var(--lighter);
             }
             @keyframes animate {
               0%{
