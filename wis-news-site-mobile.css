@@ -45,7 +45,7 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        border: 1px solid green; /* debug */
+        /*border: 1px solid green; /* debug */
         height: 100vmax; /* debug */
     }
         .upper-container-mobile {
@@ -198,7 +198,7 @@ body {
                 }                                
                 .mobile-frontpage-subhead {
                     font-family: 'Roboto', sans-serif;
-                    font-size: 1.75vmax;
+                    font-size: 2vmax;
                     text-shadow: var(--text-shadow);
                     /*text-align: center;*/
                     line-height: 1.6;
@@ -214,8 +214,8 @@ body {
                     align-items: center;
                     justify-content: center;
                     text-decoration: none;
-                    padding: 1.5vmin 1.75vmax;
-                    font-size: 1.25vmax;
+                    padding: 2.5vmin 2.5vmax;
+                    font-size: 2vmax;
                     font-family: var(--head);
                     font-weight: bold;
                     color: white;
@@ -224,7 +224,7 @@ body {
                     text-shadow: var(--text-shadow);
                     border-radius: 1.25vmax;
                     transition: .4s;
-                    max-width: 12.5vmax;
+                    max-width: 20vmax;
                     animation-name: learn-more-button-appear;
                     animation-duration: 2s;
                     animation-play-state: forwards;
