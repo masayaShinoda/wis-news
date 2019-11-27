@@ -33,15 +33,18 @@ body {
   align-items: center;
 }
   .parent-container-desktop {
-      display: flex;
-      width: 100vmax;;
-      flex-direction: column;
-      align-items: center;
-      background: url("./images/wis-background-darkened.jpg");    
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+    display: flex;
+    width: 100vmax;
+    flex-direction: column;
+    align-items: center;
+    background: url("./images/wis-background-darkened.jpg");    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parent-container-mobile {
+    display: none;  /* cancel out mobile markup */
   }
       .upper-container-desktop {
           display: flex;
