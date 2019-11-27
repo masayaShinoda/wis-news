@@ -222,7 +222,7 @@ body {
                     background: var(--Maya);
                     box-shadow: var(--button-shadow);
                     text-shadow: var(--text-shadow);
-                    border-radius: 1.25vmax;
+                    border-radius: 2.5vmax;
                     transition: .4s;
                     max-width: 20vmax;
                     animation-name: learn-more-button-appear;
