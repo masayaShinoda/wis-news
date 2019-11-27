@@ -32,7 +32,17 @@ body {
 @keyframes nav-appear {
     0% {margin-left: -25vmin;}
     100% {margin-left: 13.33vmin;}
-  }
+}
+@keyframes slide-left {
+    0% {margin-right: -25vmax;}
+}
+@keyframes slide-right {
+    0% {margin-left: -25vmax;}
+}
+@keyframes fade-in {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
     .parent-container-desktop {
         display: none;  /* cancel out desktop markup */
     }
@@ -179,11 +189,14 @@ body {
             flex-direction: column;
             align-items: center;
         }
-            .banner-logo-mobile {
-
+            .banner-logo-mobile-container {
+                animation-name: slide-right;
+                animation-duration: 3s;
+                animation-play-state: forwards;
             }
                 .mobile-front-page-banner-image {
                     max-width: 80vmin;
+
                 }
                 .mobile-frontpage-head {
                     font-family: var(--head), serif;
@@ -208,6 +221,9 @@ body {
                     background: var(--darker);
                     padding: 2.5vmax;
                     border-radius: 1.25vmax;
+                    animation-name: slide-left;
+                    animation-duration: 2s;
+                    animation-play-state: forwards;
                 }
                 .learn-more-button {
                     display: flex;
@@ -224,11 +240,7 @@ body {
                     text-shadow: var(--text-shadow);
                     border-radius: 2.5vmax;
                     transition: .4s;
-                    max-width: 20vmax;
-                    animation-name: learn-more-button-appear;
-                    animation-duration: 2s;
-                    animation-play-state: forwards;
-                    
+                    max-width: 20vmax;                                       
                 }
                     .learn-more-button:hover {
                         color: var(--darker);
@@ -240,9 +252,8 @@ body {
 
 
 
-/* arrows */
-      /* arrow */
-      .arrow{
+/* arrow */
+      .arrow {
         display: flex;
         flex-direction: column;
         align-items: center;
