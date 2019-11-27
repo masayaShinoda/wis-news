@@ -11,7 +11,7 @@ html {
   --lighter: #D5DFF2;
   --darker: #939EBF;
   /* shadows */
-  --button-shadow: .5vmin .75vmin rgba(38,33,36,0.5);
+  --button-shadow: .5vmin .375vmin rgba(38,33,36,0.5);
   --text-shadow: .125vmin .15vmin rgba(38,33,36,0.5);
 }
 ::selection {
@@ -203,7 +203,7 @@ body {
                     /*text-align: center;*/
                     line-height: 1.6;
                     color: white;
-                    max-width: 27.5vmax;              
+                    max-width: 32.5vmax;              
                     /*background: rgba(255,255,255,.95);*/
                     background: var(--darker);
                     padding: 2.5vmax;
