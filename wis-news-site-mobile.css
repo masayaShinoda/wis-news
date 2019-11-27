@@ -234,3 +234,67 @@ body {
                         color: var(--darker);
                         background: white;
                     }
+
+
+
+
+
+
+/* arrows */
+      /* arrow */
+      .arrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translate(-50%,-50%);
+        transform: rotateZ(-270deg);
+        animation-name: arrows-attention-grab;
+        animation-duration: 4s;
+        animation-play-state: forwards;
+      }
+        @keyframes arrows-attention-grab {
+          0% {margin-left: 10vmax;}
+        }
+      .arrow span{
+        display: block;
+        width: 2vmax;
+        height: 2vmax;
+        border-bottom: .5vmax solid var(--lighter);
+        border-right: .5vmax solid var(--lighter);
+        transform: rotate(45deg);
+        animation: animate 2s infinite;
+      }
+      .arrow span:nth-child(1){
+        animation-delay: 0.5s;
+        width: 1.75vmax;
+        height: 1.75vmax;
+        border-bottom: .425vmax solid var(--lighter);
+        border-right: .425vmax solid var(--lighter);
+      }
+      .arrow span:nth-child(2){
+        animation-delay: 0.75s;
+        width: 1.5vmax;
+        height: 1.5vmax;
+        border-bottom: .4vmax solid var(--lighter);
+        border-right: .4vmax solid var(--lighter);
+      }
+      .arrow span:nth-child(3){
+        animation-delay: 1s;
+        width: 1.75vmax;
+        height: 1.75vmax;
+        border-bottom: .425vmax solid var(--lighter);
+        border-right: .425vmax solid var(--lighter);
+      }
+      @keyframes animate {
+        0%{
+            opacity: 0;
+            transform: rotate(45deg) translate(-.5vmax,-.5vmax);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: rotate(45deg) translate(.25vmax, .25vmax);
+        }
+      }
