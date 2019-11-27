@@ -112,7 +112,7 @@ body {
                   padding-top: 1.75vmax;
                   padding-bottom: 1.75vmax;
                   padding-right: 2.8vmax;
-                  font-size: 20pt;
+                  font-size: 2.75vmax;
                   margin-left: -10vmax;
                   margin-bottom: 4.25vmax;
                   background: var(--Maya);
@@ -124,8 +124,8 @@ body {
                   color: var(--Maya);
                 }
                 .nav-icon-mobile {
-                  max-width: 2.5vmax;
-                  max-height: 2.5vmax;
+                  max-width: 2.75vmax;
+                  max-height: 2.75vmax;
                   margin-right: 1.75vmax;
                 }
                 .open-nav-container {
