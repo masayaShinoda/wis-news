@@ -64,7 +64,7 @@ body {
         .upper-container-tablet {
             display: block;
             width: 100vmin;
-            height: 30vmin;
+            height: 20vmin;
             /*border: 1px solid red; /* debug */
         }
           #nav-overlay-tablet {
@@ -198,7 +198,7 @@ body {
                 animation-play-state: forwards;
             }
                 .tablet-front-page-banner-image {
-                    max-width: 60vmin;
+                    max-width: 45vmin;
 
                 }
                 .tablet-frontpage-head {
@@ -214,12 +214,12 @@ body {
                 }                                
                 .tablet-frontpage-subhead {
                     font-family: 'Roboto', sans-serif;
-                    font-size: 2.25vmax;
+                    font-size: 18px;
                     text-shadow: var(--text-shadow);
                     /*text-align: center;*/
                     line-height: 1.6;
                     color: white;
-                    max-width: 45vmax;         
+                    max-width: 40vmax;         
                     /*background: rgba(255,255,255,.95);*/
                     background: var(--darker);
                     padding: 2.5vmax;
@@ -234,7 +234,7 @@ body {
                     justify-content: center;
                     text-decoration: none;
                     padding: 2.5vmin 2.5vmax;
-                    font-size: 2.5vmax;
+                    font-size: 18px;
                     font-family: var(--head);
                     font-weight: bold;
                     color: white;
