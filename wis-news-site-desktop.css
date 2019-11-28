@@ -378,7 +378,7 @@ body {
           margin: 0;
           padding: 1.25vmin 0 .75vmax;
           color: #333333;
-          font-size: 24px;
+          font-size: 21px;
           font-weight: 700;
           font-family: var(--head); /* maya code */
         }
@@ -387,7 +387,7 @@ body {
           padding: 0 0 20px;
           color: var(--darker);
           /*font-size: 20px;*/
-          font-size: 18px; /* maya code */
+          font-size: 16px; /* maya code */
           font-weight: 400;
           font-family: var(--subhead); /* maya code */            
         }
