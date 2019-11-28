@@ -145,8 +145,8 @@ body {
                     display: flex;
                     margin-left: 13.33vmin;
                     margin-top: 18.6vmin;
-                    max-width: 12.5vmin;
-                    max-height: 12.5vmin;
+                    max-width: 10vmin;
+                    max-height: 10vmin;
                     position: fixed;
                     top: 0;
                     z-index: 1;
@@ -162,8 +162,8 @@ body {
                       background: var(--Maya);
                       border-radius: 100%;
                       box-shadow: var(--button-shadow);
-                      min-width: 12.5vmin;
-                      min-height: 12.5vmin;
+                      min-width: 10vmin;
+                      min-height: 10vmin;
                     }
                     /*.open-nav-button:hover {
                       background: white;
