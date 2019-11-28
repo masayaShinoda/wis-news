@@ -77,8 +77,8 @@ body {
           .close-nav-container-tablet {
             display: flex;
             margin-top: 18.6vmin;
-            max-width: 20vmin;
-            max-height: 20vmin;
+            max-width: 10vmin;
+            max-height: 10vmin;
             position: absolute;
             top: 0;
             z-index: 0;
@@ -94,8 +94,8 @@ body {
               background: var(--Maya);
               border-radius: 100%;
               box-shadow: var(--button-shadow);
-              min-width: 20vmin;
-              min-height: 20vmin;
+              min-width: 10vmin;
+              min-height: 10vmin;
               position: fixed;
             }
               .x {
