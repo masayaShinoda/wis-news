@@ -46,6 +46,9 @@ body {
     .parent-container-desktop {
         display: none;  /* cancel out desktop markup */
     }
+    .parent-container-tablet {
+        display: none; /* cancel out tablet markup */
+    }
     .parent-container-mobile {
         display: flex;
         flex-direction: column;
