@@ -41,11 +41,13 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;    
   }
   .parent-container-mobile {
     display: none;  /* cancel out mobile markup */
+  }
+  .parent-container-tablet {
+    display: none; /* cancel out tablet marukup */
   }
       .upper-container-desktop {
           display: flex;
@@ -95,7 +97,7 @@ body {
                   text-decoration: none;
                   padding: 1.5vmin 1.75vmax;
                   margin-left: 1.75vmax;
-                  font-size: 1.25vmax;
+                  font-size: 18px;
                   font-family: var(--head);
                   color: white;
                   background: var(--Maya);
@@ -160,7 +162,7 @@ body {
           }                                
           .frontpage-subhead {
               font-family: 'Roboto', sans-serif;
-              font-size: 1.25vmax;
+              font-size: 18px;
               text-shadow: var(--text-shadow);
               /*text-align: center;*/
               line-height: 1.6;
@@ -177,7 +179,7 @@ body {
               justify-content: center;
               text-decoration: none;
               padding: 1.5vmin 1.75vmax;
-              font-size: 1.25vmax;
+              font-size: 18px;
               font-family: var(--head);
               font-weight: bold;
               color: white;
@@ -374,9 +376,9 @@ body {
         }
         .post-module .post-content .title {
           margin: 0;
-          padding: 0 0 10px;
+          padding: 1.25vmin 0 .75vmax;
           color: #333333;
-          font-size: 26px;
+          font-size: 24px;
           font-weight: 700;
           font-family: var(--head); /* maya code */
         }
