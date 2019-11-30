@@ -79,7 +79,27 @@
 
     <!--- tablet start -->
     <div class="parent-container-tablet">
-
+      <div class="upper-container-tablet"> <!--- upper container, contains cover photo and nav button --->
+        <div id="nav-overlay-tablet">
+          <div class="close-nav-container-tablet">
+            <div class="close-nav-button-tablet" onclick="closeNavTablet()">
+              <div class="x">+</div>
+            </div>
+            <div class="nav-links-container-tablet">
+              <a class="nav-link-tablet" href="index.html"><img src="./images/icons/home-icon@4x.png" class="nav-icon-tablet">Home</a>
+              <a class="nav-link-tablet" href="#"><img src="./images/icons/news-icon@4x.png" class="nav-icon-tablet">News</a>
+              <a class="nav-link-tablet" href="#"><img src="./images/icons/about-icon@4x.png" class="nav-icon-tablet">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="open-nav-container-tablet">
+          <div class="open-nav-button-tablet" id="openNavButtonTablet" onclick="openNavTablet(); colorChangeBurgersTablet()" onmouseout="colorChangeBurgersReverseTablet()">
+            <div class="burger-top" id="burgerTopTablet"></div>
+            <div class="burger-mid" id="burgerMidTablet"></div>
+            <div class="burger-bottom" id="burgerBottomTablet"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--- tablet end -->
 
