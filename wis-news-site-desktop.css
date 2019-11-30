@@ -129,6 +129,7 @@ body {
             border-radius: 2.5vmax;
             animation-name: rotate-z;
             animation-duration: 2s;
+;
             animation-play-state: forwards;
           }
             @keyframes rotate-z {
@@ -142,7 +143,7 @@ body {
               font-family: 'Kaushan Script', sans-serif;
               font-size: 7.5vmax;
               text-shadow: .425vmin .525vmax .75vmin var(--darker);
-              animation-name: caligraphy-appear;
+              /*animation-name: caligraphy-appear;*/
               animation-duration: 4s;
               animation-fill-mode: forwards;
           }
