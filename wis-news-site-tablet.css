@@ -203,7 +203,7 @@ body {
                 }
                 .tablet-frontpage-head {
                     font-family: var(--head), serif;
-                    font-size: 2.25vmax;
+                    font-size: 2.75vmax;
                     text-shadow: var(--text-shadow);
                     text-align: center;
                     line-height: 1.6;

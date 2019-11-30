@@ -60,6 +60,7 @@ body {
         background-size: cover;
         /*border: 1px solid green; /* debug */
         height: 100vmax; /* debug */
+        width: 100vw; /* debug */
     }
         .upper-container-mobile {
             display: block;
@@ -203,7 +204,7 @@ body {
                 }
                 .mobile-frontpage-head {
                     font-family: var(--head), serif;
-                    font-size: 2.25vmax;
+                    font-size: 2.75vmax;
                     text-shadow: var(--text-shadow);
                     text-align: center;
                     line-height: 1.6;
