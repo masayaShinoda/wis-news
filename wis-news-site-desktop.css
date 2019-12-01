@@ -136,7 +136,9 @@ body {
               0% {transform: rotateZ(90deg);}
             }
             .front-page-banner-image {
-              max-width: 35vmax;
+              max-width: 27.5vmax;
+              border-radius: 100%;
+              
             }
           .caligraphy {
               color: white;
@@ -164,15 +166,16 @@ body {
           .frontpage-subhead {
               font-family: 'Roboto', sans-serif;
               font-size: 18px;
-              text-shadow: var(--text-shadow);
+              /*text-shadow: var(--text-shadow);*/
               /*text-align: center;*/
               line-height: 1.6;
-              color: white;
+              color: #333333;
               max-width: 27.5vmax;              
               /*background: rgba(255,255,255,.95);*/
-              background: var(--darker);
+              background: rgba(255,255,255,.9);
               padding: 1.75vmax;
               border-radius: 1.25vmax;
+              box-shadow: .5vmax .5vmax var(--darker);
           }
           .learn-more-button {
               display: flex;
@@ -197,6 +200,7 @@ body {
           }
               .learn-more-button:hover {
                   color: var(--darker);
+                  text-shadow: none;
                   background: white;
               }
           .post-container {
