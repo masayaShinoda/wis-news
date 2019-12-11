@@ -216,15 +216,15 @@ body {
                 .mobile-frontpage-subhead {
                     font-family: 'Roboto', sans-serif;
                     font-size: 2.25vmax;
-                    text-shadow: var(--text-shadow);
+                    /*text-shadow: var(--text-shadow);*/
                     /*text-align: center;*/
                     line-height: 1.6;
-                    color: white;
+                    color: #333333;
                     max-width: 32.5vmax;              
-                    /*background: rgba(255,255,255,.95);*/
-                    background: var(--darker);
-                    padding: 2.5vmax;
-                    border-radius: 1.25vmax;
+                    background: rgba(255,255,255,.975);                    
+                    padding: 2.75vmax 2.5vmax;
+                    border-radius: 2.75vmax;
+                    box-shadow: .75vmax .75vmax var(--darker);
                     animation-name: slide-left;
                     animation-duration: 2s;
                     animation-play-state: forwards;
@@ -234,8 +234,8 @@ body {
                     align-items: center;
                     justify-content: center;
                     text-decoration: none;
-                    padding: 2.5vmin 2.5vmax;
-                    font-size: 2.5vmax;
+                    padding: 3.25vmin 2.5vmax;
+                    font-size: 2.25vmax;
                     font-family: var(--head);
                     font-weight: bold;
                     color: white;
