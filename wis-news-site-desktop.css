@@ -57,7 +57,7 @@ body {
           width: 80vmax;
           height: 15vmin;
           z-index: 10;
-          /*border: 1px solid green;    /* debug */
+          border: 1px solid green;    /* debug */
       }
           .wis-banner-container {
               background: white;
@@ -467,3 +467,12 @@ body {
         .container .info span .fa {
           color: var(--Maya);
         }
+
+
+/*  articles.html */
+.article-container-desktop {
+  height: 100vmin; /* debug */
+  width: 53.5vmax; /* debug */
+  border: 1px solid green; /* debug */
+
+}

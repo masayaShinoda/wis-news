@@ -26,7 +26,7 @@
   </head>
   <body>
     <!---  desktop start -->
-    <div class="parent-container-desktop" style="height: 100vmax;"> <!--- style attribute is for debug -->
+    <div class="parent-container-desktop"> <!--- style attribute is for debug -->
         <div class="upper-container-desktop">
           <a class="wis-banner-container" href="#" target="_blank"><img src="./images/Logo-WIS.png" class="wis-banner-image"></a>
           <div class="nav-links-container">   <!--- nav desktop -->
@@ -35,7 +35,11 @@
             <a class="nav-link" href="404.html">About</a>
           </div>
         </div>
-  
+        <div class="mid-container-desktop" style="margin-top: 16.25vmax;">
+          <div class="article-container-desktop">
+            
+          </div>
+        </div>
 
   
     </div>
@@ -44,28 +48,51 @@
 
     <!--- mobile starts -->
     <div class="parent-container-mobile">
-        <div class="upper-container-mobile"> <!--- upper container, contains cover photo and nav button --->
-          <div id="nav-overlay">
-            <div class="close-nav-container">
-              <div class="close-nav-button" onclick="closeNav()">
-                <div class="x">+</div>
-              </div>
-              <div class="nav-links-container-mobile">  <!--- nav mobile -->
-                <a class="nav-link-mobile" href="index.html"><img src="./images/icons/home-icon@4x.png" class="nav-icon-mobile">Home</a>
-                <a class="nav-link-mobile" href="articles.html"><img src="./images/icons/news-icon@4x.png" class="nav-icon-mobile">News</a>
-                <a class="nav-link-mobile" href="404.html"><img src="./images/icons/about-icon@4x.png" class="nav-icon-mobile">About</a>
-              </div>
+      <div class="upper-container-mobile"> <!--- upper container, contains cover photo and nav button --->
+        <div id="nav-overlay">
+          <div class="close-nav-container">
+            <div class="close-nav-button" onclick="closeNav()">
+              <div class="x">+</div>
+            </div>
+            <div class="nav-links-container-mobile">  <!--- nav mobile -->
+              <a class="nav-link-mobile" href="index.html"><img src="./images/icons/home-icon@4x.png" class="nav-icon-mobile">Home</a>
+              <a class="nav-link-mobile" href="articles.html"><img src="./images/icons/news-icon@4x.png" class="nav-icon-mobile">News</a>
+              <a class="nav-link-mobile" href="404.html"><img src="./images/icons/about-icon@4x.png" class="nav-icon-mobile">About</a>
             </div>
           </div>
-          <div class="open-nav-container">
-            <div class="open-nav-button" id="openNavButton" onclick="openNav(); colorChangeBurgers()" onmouseout="colorChangeBurgersReverse()">
-              <div class="burger-top" id="burgerTop"></div>
-              <div class="burger-mid" id="burgerMid"></div>
-              <div class="burger-bottom" id="burgerBottom"></div>
+        </div>
+        <div class="open-nav-container">
+          <div class="open-nav-button" id="openNavButton" onclick="openNav(); colorChangeBurgers()" onmouseout="colorChangeBurgersReverse()">
+            <div class="burger-top" id="burgerTop"></div>
+            <div class="burger-mid" id="burgerMid"></div>
+            <div class="burger-bottom" id="burgerBottom"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mid-container-mobile" style="width: 100vw;">
+        <div class="article-container-mobile">  <!--- constitudes one article -->            
+          <div class="article-header-container-mobile">
+            <h1 class="article-header-mobile">
+              Mustache Band performs at WIS!
+            </h1>
+            <h2 class="article-date-mobile">
+              28/10/2019
+            </h2>
+          </div>
+          <div class="article-contents-mobile">
+            <p class="article-content-text-mobile">
+              One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.
+            </p>
+            <div class="article-image-container-mobile">
+              <img src="./images/mustache-band.jpg" class="article-image-mobile"></img>
+              <p class="article-image-caption-mobile">
+                Cambodia's distinguished artists.
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <!--- mobile ends -->
 
 
