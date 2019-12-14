@@ -325,6 +325,7 @@ body {
       border-radius: 5.25vmax;
       background: #fcfcfc;
       width: 100vw;
+      box-shadow: .75vmax .75vmax var(--darker);
     }
       .article-header-container-mobile {
         display: flex;
@@ -355,7 +356,6 @@ body {
       .article-contents-mobile {
         display: flex;
         flex-direction: column;
-
       }
         .article-content-text-mobile {
           font-family: var(--body);
@@ -381,4 +381,5 @@ body {
             font-size: 11px;
             margin-top: 1.25vmax;
             font-family: var(--subhead);
+            font-style: italic;
           }

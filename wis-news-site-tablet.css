@@ -312,3 +312,76 @@ body {
             transform: rotate(45deg) translate(.25vmax, .25vmax);
         }
       }
+
+
+
+    /* articles.html */
+    .article-container-tablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8.75vh 8.75vw;
+      border-radius: 5.25vmax;
+      background: #fcfcfc;
+      width: 90vw;
+      box-shadow: .75vmax .75vmax var(--darker);
+    }
+      .article-header-container-tablet {
+        display: flex;
+        flex-direction: column;
+        max-width: 82.5vw;
+        margin-bottom: 3.75vmax;
+      }
+        .article-header-tablet {
+          color: var(--Maya);
+          font-family: var(--head);
+          font-size: 28px;
+          font-weight: 800;
+          line-height: 1.4;
+          padding-bottom: 1.25vmax;
+          border-bottom: var(--darker) solid .75vmin;
+        }
+        .article-date-tablet {
+          display: flex;
+          justify-content: center;
+          padding: .5vmax 1vmax;
+          width: 30%;
+          font-family: var(--subhead);
+          font-size: 14px;
+          color: white;
+          background: var(--darker);
+          border-radius: 0 0 1.25vmax 1.25vmax;          
+        }
+      .article-contents-tablet {
+        display: flex;
+        flex-direction: column;
+      }
+        .article-content-text-tablet {
+          font-family: var(--body);
+          color: #333333;
+          font-size: 16px;
+          line-height: 1.6;     
+          max-width: 60vw; 
+        }
+        .article-image-container-tablet {
+          display: flex;
+          flex-direction: column;
+          margin-top: 3.25vmax;
+          margin-bottom: 3.25vmax;
+          margin-left: -8.75vw;
+          width: 40vw;
+          /*border: 1px solid red; /* debug */
+        }
+          .article-image-tablet {
+            width: 57.5vw;
+            border-radius: 1.25vmax;
+            margin-left: 8.75vw;
+          }
+          .article-image-caption-tablet {
+            margin-left: 8.75vw;
+            color: #666666;
+            font-size: 11px;
+            margin-top: 1.25vmax;
+            font-family: var(--subhead);
+            font-style: italic;
+          }

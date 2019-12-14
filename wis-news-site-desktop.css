@@ -23,6 +23,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+a {text-decoration: none;}
 body {
   /*background: url("./images/wis-background-darkened.jpg");*/
   background-position: center;
@@ -63,6 +64,7 @@ body {
               background: white;
               padding-top: 12.5vmin;
               margin-top: 2.5vmin;
+              margin-left: -2.5vmax;
               border-radius: 5vmin;
               box-shadow: .5vmin 1.25vmin rgba(0,0,0,.25);
               transition: .4s;              
@@ -467,12 +469,79 @@ body {
         .container .info span .fa {
           color: var(--Maya);
         }
+      .news-article-link-desktop .title:hover {
+        color: var(--darker);
+        transition: .15s;
+        text-decoration: underline;
+      }
 
 
-/*  articles.html */
-.article-container-desktop {
-  height: 100vmin; /* debug */
-  width: 53.5vmax; /* debug */
-  border: 1px solid green; /* debug */
-
-}
+  /* articles.html */
+  .article-container-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5.75vmax 8.75vmin;
+    border-radius: 4.25vmax;
+    background: #fcfcfc;
+    width: 52.5vmax;
+    box-shadow: .75vmax .75vmax var(--darker);
+  }
+    .article-header-container-desktop {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3.75vmax;
+    }
+    .article-header-desktop {
+      color: var(--Maya);
+      font-family: var(--head);
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.4;
+      padding-bottom: 1.25vmax;
+      border-bottom: var(--darker) solid .5vmin;
+    }
+      .article-date-desktop {
+        display: flex;
+        justify-content: center;
+        padding: .25vmax .25vmax;
+        width: 25%;
+        font-family: var(--subhead);
+        font-size: 14px;
+        color: white;
+        background: var(--darker);
+        border-radius: 0 0 1.25vmax 1.25vmax;          
+      }
+    .article-contents-desktop {
+      display: flex;
+      flex-direction: column;
+    }
+      .article-content-text-desktop {
+        font-family: var(--body);
+        color: #333333;
+        font-size: 16px;
+        line-height: 1.6;     
+        max-width: 37.5vw;
+      }
+      .article-image-container-desktop {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.25vmin;
+        margin-bottom: 3.25vmin;
+        margin-left: -8.75vw;
+        width: 37.5vw;
+        /*border: 1px solid red; /* debug */
+      }
+        .article-image-desktop {
+          width: 37.5vw;
+          border-radius: 1.25vmax;
+          margin-left: 8.75vw;
+        }
+        .article-image-caption-desktop {
+          margin-left: 8.75vw;
+          color: #666666;
+          font-size: 11px;
+          margin-top: 1.25vmin;
+          font-family: var(--subhead);
+          font-style: italic;
+        }
