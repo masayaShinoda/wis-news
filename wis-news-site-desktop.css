@@ -57,7 +57,7 @@ body {
           width: 80vmax;
           height: 15vmin;
           z-index: 10;
-          border: 1px solid green;    /* debug */
+          /*border: 1px solid green;    /* debug */
       }
           .wis-banner-container {
               background: white;
