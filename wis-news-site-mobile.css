@@ -383,3 +383,9 @@ body {
             font-family: var(--subhead);
             font-style: italic;
           }
+      .article-comments-container-mobile {
+        /*border: 1px solid red; /* debug */
+        border-top: .75vmin solid var(--darker);
+        padding-top: 2.5vmax;
+        margin-top: 5vmax;
+      }

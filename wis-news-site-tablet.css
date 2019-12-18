@@ -59,7 +59,7 @@ body {
         background-position: center;
         background-size: cover;
         /*border: 1px solid green; /* debug */
-        height: 100vmax; /* debug */
+        /*height: 100vmax; /* debug */
     }
         .upper-container-tablet {
             display: block;
@@ -385,3 +385,9 @@ body {
             font-family: var(--subhead);
             font-style: italic;
           }
+        .article-comments-container-tablet {
+          /*border: 1px solid red; /* debug */
+          margin-top: 5vmax;
+          margin-left: 8.75vmin;
+          width: 55vmin;
+        }

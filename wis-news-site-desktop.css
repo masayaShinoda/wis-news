@@ -545,3 +545,9 @@ body {
           font-family: var(--subhead);
           font-style: italic;
         }
+    .article-comments-container-desktop {
+      /*border: 1px solid red; /* debug */
+
+      margin-top: 5vmax;
+      max-width: 40vmax;
+    }
