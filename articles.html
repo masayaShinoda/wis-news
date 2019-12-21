@@ -65,9 +65,97 @@
       </div>
 
 
-  </div>
+    </div>
     <!--- desktop end -->
 
+
+    <!--- mobile start -->
+    <div class="parent-container-mobile">
+      <div class="upper-container-mobile"> <!--- upper container, contains cover photo and nav button --->
+        <div id="nav-overlay">
+          <div class="close-nav-container">
+            <div class="close-nav-button" onclick="closeNav()">
+              <div class="x">+</div>
+            </div>
+            <div class="nav-links-container-mobile">  <!--- nav mobile -->
+              <a class="nav-link-mobile" href="index.html"><img src="./images/icons/home-icon@4x.png" class="nav-icon-mobile">Home</a>
+              <a class="nav-link-mobile" href="#"><img src="./images/icons/news-icon@4x.png" class="nav-icon-mobile">News</a>
+              <a class="nav-link-mobile" href="404.html"><img src="./images/icons/about-icon@4x.png" class="nav-icon-mobile">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="open-nav-container">
+          <div class="open-nav-button" id="openNavButton" onclick="openNav(); colorChangeBurgers()" onmouseout="colorChangeBurgersReverse()">
+            <div class="burger-top" id="burgerTop"></div>
+            <div class="burger-mid" id="burgerMid"></div>
+            <div class="burger-bottom" id="burgerBottom"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mid-container-mobile" style="margin-top: 15vmin;">
+        <div class="article-selection-container-mobile">
+
+            <div class="container">
+              <!--- News card start ( mobile ) -->
+              <div class="column" data-aos="flip-left" data-aos-duration="1000">
+                <!-- Post-->
+                <div class="post-module">
+                  <!-- Thumbnail-->
+                  <div class="thumbnail">
+                    <div class="date">
+                      <div class="day">28</div>
+                      <div class="month">Oct</div>
+                    </div><img src="./images/chen-2.jpg"/>
+                  </div>
+                  <!-- Post Content-->
+                  <div class="post-content">
+                    <div class="category">Events</div>
+                    <a class="news-article-link-desktop" href="articles-mobile.html#article-1"><h1 class="title">Mustache Band performs at WIS!</h1></a>
+                    <h2 class="sub_title">Cambodia's distinguished artists.</h2>
+                    <p class="description">One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.</p>
+                  </div>
+                </div>
+              </div>
+              <!--- News card end -->
+            </div>
+
+          
+        </div>        
+      </div>
+    </div>
+    <!--- mobile end -->
+    
+
+
+    
+    <!--- tablet start -->
+    <div class="parent-container-tablet">
+      <div class="upper-container-tablet"> <!--- upper container, contains cover photo and nav button --->
+        <div id="nav-overlay-tablet">
+          <div class="close-nav-container-tablet">
+            <div class="close-nav-button-tablet" onclick="closeNavTablet()">
+              <div class="x">+</div>
+            </div>
+            <div class="nav-links-container-tablet">  <!--- nav tablet -->
+              <a class="nav-link-tablet" href="index.html"><img src="./images/icons/home-icon@4x.png" class="nav-icon-tablet">Home</a>
+              <a class="nav-link-tablet" href="#"><img src="./images/icons/news-icon@4x.png" class="nav-icon-tablet">News</a>
+              <a class="nav-link-tablet" href="404.html"><img src="./images/icons/about-icon@4x.png" class="nav-icon-tablet">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="open-nav-container-tablet">
+          <div class="open-nav-button-tablet" id="openNavButtonTablet" onclick="openNavTablet(); colorChangeBurgersTablet()" onmouseout="colorChangeBurgersReverseTablet()">
+            <div class="burger-top" id="burgerTopTablet"></div>
+            <div class="burger-mid" id="burgerMidTablet"></div>
+            <div class="burger-bottom" id="burgerBottomTablet"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mid-container-tablet" style="margin-top: 15vmin">
+
+      </div>
+    </div>
+    <!--- tablet end -->
 
   <script>
 

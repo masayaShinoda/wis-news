@@ -59,7 +59,7 @@ body {
         background-position: center;
         background-size: cover;
         /*border: 1px solid green; /* debug */
-        /*height: 100vmax; /* debug */
+        min-height: 100vmax; /* debug */
     }
         .upper-container-tablet {
             display: block;
