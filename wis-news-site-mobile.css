@@ -543,8 +543,11 @@ body {
           opacity: 1 !important;
         }
         .container {
-          min-width: 90vw;
- 
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /*border: 1px solid red; /* debug */
+          
         }
         .container:before,
         .container:after {
@@ -553,8 +556,7 @@ body {
           clear: both;
         }
         .container .column {
-          width: 50%;
-          padding: 0 25px;
+          width: 90%;
           margin-top: 5vmax;
           -webkti-box-sizing: border-box;
           -moz-box-sizing: border-box;
