@@ -594,7 +594,10 @@ body {
         .container .info span .fa {
           color: var(--Maya);
         }
-      .news-article-link-desktop .title:hover {
+      .news-article-link-mobile {
+        text-decoration: none;
+      }            
+      .news-article-link-mobile .title:hover {
         color: var(--darker);
         transition: .15s;
         text-decoration: underline;
