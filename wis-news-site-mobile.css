@@ -219,9 +219,9 @@ body {
                     /*text-shadow: var(--text-shadow);*/
                     /*text-align: center;*/
                     line-height: 1.6;
-                    color: white;
+                    color: #333333;
                     max-width: 40vmax;         
-                    background: rgba(51,51,51,.975);
+                    background: rgba(240,240,240,.975); 
                     padding: 2.5vmax;
                     border-radius: 3.25vmax;
                     animation-name: slide-left;
