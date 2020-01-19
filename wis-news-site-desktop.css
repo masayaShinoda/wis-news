@@ -485,7 +485,7 @@ body {
     padding: 5.75vmax 8.75vmin;
     border-radius: 4.25vmax;
     background: #fcfcfc;
-    width: 52.5vmax;
+    width: 57.5vmax;
     box-shadow: .75vmax .75vmax var(--darker);
   }
     .article-header-container-desktop {
@@ -522,13 +522,13 @@ body {
         color: #333333;
         font-size: 16px;
         line-height: 1.6;     
-        max-width: 37.5vw;
+        max-width: 42.5vw;
       }
       .article-image-container-desktop {
         display: flex;
         flex-direction: column;
-        margin-top: 3.25vmin;
-        margin-bottom: 3.25vmin;
+        margin-top: 4.75vmin;
+        margin-bottom: 4.75vmin;
         margin-left: -8.75vw;
         width: 37.5vw;
         /*border: 1px solid red; /* debug */

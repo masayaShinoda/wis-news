@@ -25,46 +25,29 @@
   </head>
   <body>
 
-
-
-    <!---  desktop start -->
-    <div class="parent-container-desktop"> <!--- style attribute is for debug -->
+    <!--- desktop start -->
+    <div class="parent-container-desktop" style="width: 100vw; height: 100vh">
       <div class="upper-container-desktop">
         <a class="wis-banner-container" href="#" target="_blank"><img src="./images/Logo-WIS.png" class="wis-banner-image"></a>
-        <div class="nav-links-container">   <!--- nav desktop -->
+        <div class="nav-links-container"> <!--- nav desktop -->
           <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link" href="articles.html#article-1">News</a>
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="index.html#news">News</a>
+          <a class="nav-link" href="404.html">About</a>
         </div>
       </div>
-      <div class="mid-container-desktop" style="margin-top: 10.25vmax; padding-top: 3.25vmax;" id="article-1">
-        <div class="article-container-desktop">  <!--- constitudes one article -->            
-          <div class="article-header-container-desktop">
-            <h1 class="article-header-desktop">
-              Mustache Band performs at WIS!
-            </h1>
-            <h2 class="article-date-desktop">
-              28/10/2019
-            </h2>
-          </div>
-          <div class="article-contents-desktop">
-            <p class="article-content-text-desktop">
-              One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.
-            </p>
-            <div class="article-image-container-desktop">
-              <img src="./images/mustache-band.jpg" class="article-image-desktop"></img>
-              <p class="article-image-caption-desktop">
-                Cambodia's distinguished artists.
-              </p>
+      <div class="mid-container-desktop" style="margin-top: 30vmin;">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="./images/icons/pika-suprised@4x.png" alt="pika suprised.png" style="max-width: 25vmax; animation-name: arrows-attention-grab, rotate-z; animation-duration: 3s;">  
+            <div style="display: flex; flex-direction: column; background: rgba(255,255,255,0.95); padding: 2.5vmax; border-radius: 2.5vmax; margin-left: 2.5vmax;">
+                <h1 class="frontpage-head" style="text-align: left; margin: 0;">
+                    Error 404
+                </h1>
+                <p class="frontpage-subhead" style="background: none; color: #333333; padding: 0; text-shadow: none; margin-top: 1.25vmax; box-shadow: none;">
+                    Uh oh the page you're looking for is either unavailable or under construction!
+                </p>
             </div>
-          </div>
-          <div class="article-comments-container-desktop">
-            <div id="disqus_thread"></div>
-          </div>
         </div>
       </div>
-
-
     </div>
     <!--- desktop end -->
 
@@ -126,13 +109,13 @@
                     <div class="date">
                       <div class="day">28</div>
                       <div class="month">Oct</div>
-                    </div><img src="./images/chen-2.jpg"/>
+                    </div><img src="./images/give-a-gift-1.jpg"/>
                   </div>
                   <!-- Post Content-->
                   <div class="post-content">
                     <div class="category">Events</div>
-                    <a class="news-article-link-mobile" href="articles-mobile.html#article-1"><h1 class="title">Mustache Band performs at WIS!</h1></a>
-                    <h2 class="sub_title">Cambodia's distinguished artists.</h2>
+                    <a class="news-article-link-mobile" href="article-2.html"><h1 class="title">Give a Gift</h1></a>
+                    <h2 class="sub_title">A project to aid future scholars.</h2>
                     <p class="description">One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.</p>
                   </div>
                 </div>
@@ -146,8 +129,6 @@
     </div>
     <!--- mobile end -->
     
-
-
     
     <!--- tablet start -->
     <div class="parent-container-tablet">
@@ -178,7 +159,7 @@
 
           <div class="container">
             <!--- News card start ( tablet ) -->
-            <div class="column" data-aos="flip-left" data-aos-duration="1000">
+            <div class="column" data-aos="flip-left" data-aos-duration="1000">  <!--- article 1 -->
               <!-- Post-->
               <div class="post-module">
                 <!-- Thumbnail-->
@@ -191,7 +172,7 @@
                 <!-- Post Content-->
                 <div class="post-content">
                   <div class="category">Events</div>
-                  <a class="news-article-link-tablet" href="articles-tablet.html#article-1"><h1 class="title">Mustache Band performs at WIS!</h1></a>
+                  <a class="news-article-link-tablet" href="article-1.html"><h1 class="title">Mustache Band performs at WIS!</h1></a>
                   <h2 class="sub_title">Cambodia's distinguished artists.</h2>
                   <p class="description">One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.</p>
                 </div>
@@ -199,22 +180,22 @@
             </div>
             <!--- News card end -->
             <!--- News card start ( tablet ) -->
-            <div class="column" data-aos="flip-left" data-aos-duration="1000">
+            <div class="column" data-aos="flip-right" data-aos-duration="1000"> <!--- article-2 -->
               <!-- Post-->
               <div class="post-module">
                 <!-- Thumbnail-->
                 <div class="thumbnail">
                   <div class="date">
-                    <div class="day">28</div>
-                    <div class="month">Oct</div>
-                  </div><img src="./images/chen-2.jpg"/>
+                    <div class="day">8</div>
+                    <div class="month">Jan</div>
+                  </div><img src="./images/give-a-gift-1.jpg"/>
                 </div>
                 <!-- Post Content-->
                 <div class="post-content">
                   <div class="category">Events</div>
-                  <a class="news-article-link-tablet" href="articles-tablet.html#article-1"><h1 class="title">Mustache Band performs at WIS!</h1></a>
-                  <h2 class="sub_title">Cambodia's distinguished artists.</h2>
-                  <p class="description">One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.</p>
+                  <a class="news-article-link-desktop" href="article-2.html#article"><h1 class="title">Give a Gift Project</h1></a>
+                  <h2 class="sub_title">A project to aid future scholars.</h2>
+                  <p class="description">Give A Gift is a charity event dedicated to helping teachers, students, and schools that are in need of support in the provinces.</p>
                 </div>
               </div>
             </div>
