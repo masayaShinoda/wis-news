@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>WIS Journal</title>
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="wis-news-site-desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 1023px)" href="wis-news-site-tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="wis-news-site-mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Logo-WIS-small.png">
+    <link href="https://fonts.googleapis.com/css?family=Domine|Roboto&display=swap" rel="stylesheet"> <!--- head and body fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet"> <!--- sub head font -->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!--- appear on scroll script -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <!--- article news card script -->
+    <script src="//use.typekit.net/xyl8bgh.js"></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://codepen.io/andytran/pen/vLmRVp.css'>
+    <style>
+    </style>
+  </head>
+  <body>
+
+    <!--- mobile start -->
+    <div class="parent-container-mobile">
+      <div class="upper-container-mobile"> <!--- upper container, contains cover photo and nav button --->
+        <div id="nav-overlay">
+          <div class="close-nav-container">
+            <div class="close-nav-button" onclick="closeNav()">
+              <div class="x">+</div>
+            </div>
+            <div class="nav-links-container-mobile">  <!--- nav mobile -->
+              <a class="nav-link-mobile" href="index.html"><img src="./images/icons/home-icon@4x.png" class="nav-icon-mobile">Home</a>
+              <a class="nav-link-mobile" href="articles.html"><img src="./images/icons/news-icon@4x.png" class="nav-icon-mobile">News</a>
+              <a class="nav-link-mobile" href="404.html"><img src="./images/icons/about-icon@4x.png" class="nav-icon-mobile">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="open-nav-container">
+          <div class="open-nav-button" id="openNavButton" onclick="openNav(); colorChangeBurgers()" onmouseout="colorChangeBurgersReverse()">
+            <div class="burger-top" id="burgerTop"></div>
+            <div class="burger-mid" id="burgerMid"></div>
+            <div class="burger-bottom" id="burgerBottom"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mid-container-mobile" style="margin-top: 10vmin;">
+        <div class="article-container-mobile">  <!--- constitudes one article -->
+          <div class="article-header-container-mobile">
+            <h1 class="article-header-mobile">
+              Mustache Band performs at WIS!
+            </h1>
+            <h2 class="article-date-mobile">
+              28/10/2019
+            </h2>
+          </div>
+          <div class="article-contents-mobile">
+            <p class="article-content-text-mobile">
+              One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.
+            </p>
+            <div class="article-image-container-mobile">
+              <img src="./images/mustache-band.jpg" class="article-image-mobile"></img>
+              <p class="article-image-caption-mobile">
+                Cambodia's distinguished artists.
+              </p>
+            </div>
+          </div>
+          <div class="article-comments-container-mobile">
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- mobile end -->
+
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = 'https://masayashinoda.github.io/wis-news/articles.html#article-1;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = 'mustache-band-article'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://wis-journal.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <script src="wis-news-site-mobile.js"></script>
+  <script src="wis-news-site-tablet.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="wis-news-site.js"></script>
+
+  </body>
+</html>
