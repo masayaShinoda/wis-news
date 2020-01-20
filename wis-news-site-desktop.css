@@ -491,7 +491,7 @@ body {
     .article-header-container-desktop {
       display: flex;
       flex-direction: column;
-      margin-bottom: 3.75vmax;
+      margin-bottom: 2.5vmax;
     }
     .article-header-desktop {
       color: var(--Maya);
