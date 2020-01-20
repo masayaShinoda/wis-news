@@ -351,6 +351,12 @@ body {
           background: var(--darker);
           border-radius: 0 0 1.25vmax 1.25vmax;          
         }
+        .article-author-tablet {
+          display: flex;
+        }
+          .author-avatar-tablet {
+            max-width: 64px;
+          }
       .article-contents-tablet {
         display: flex;
         flex-direction: column;
@@ -388,7 +394,7 @@ body {
           /*border: 1px solid red; /* debug */
           margin-top: 5vmax;
           margin-left: 8.75vmin;
-          width: 55vmin;
+          width: 57.5vmin;
         }
 
 

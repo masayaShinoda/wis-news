@@ -513,6 +513,15 @@ body {
         background: var(--darker);
         border-radius: 0 0 1.25vmax 1.25vmax;          
       }
+      .article-author-desktop {
+        display: flex;
+        align-items: center;
+        margin-top: 1.75vh;
+      }
+        .author-avatar-desktop {
+          max-width: 64px;
+          border-radius: 100%;
+        }
     .article-contents-desktop {
       display: flex;
       flex-direction: column;
@@ -550,6 +559,6 @@ body {
       /*border: 1px solid red; /* debug */
 
       margin-top: 5vmax;
-      max-width: 40vmax;
+      max-width: 47.5vmax;
     }
     
