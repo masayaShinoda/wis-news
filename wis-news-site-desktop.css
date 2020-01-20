@@ -61,12 +61,10 @@ body {
           /*border: 1px solid green;    /* debug */
       }
           .wis-banner-container {
-              background: white;
-              padding-top: 12.5vmin;
               margin-top: 2.5vmin;
               margin-left: -2.5vmax;
-              border-radius: 5vmin;
-              box-shadow: .5vmin 1.25vmin rgba(0,0,0,.25);
+              border-radius: 100%;
+
               transition: .4s;              
               animation-name: logo-banner-appear;
               animation-play-state: forward;
@@ -81,7 +79,8 @@ body {
               }
               .wis-banner-image {
                   max-width: 5vmax;
-                  border-radius: 5vmin;
+                  border-radius: 100%;
+                  box-shadow: var(--button-shadow);
               }
           .nav-links-container {
               display: flex;
