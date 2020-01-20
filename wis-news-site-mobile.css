@@ -558,7 +558,7 @@ body {
         }
         .container .column {
           width: 90%;
-          margin-top: 5vmax;
+          margin-top: .25vmax;
           -webkti-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
