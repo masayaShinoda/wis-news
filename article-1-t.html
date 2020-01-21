@@ -25,6 +25,51 @@
   </head>
   <body>
 
+    <!---  desktop start -->
+    <div class="parent-container-desktop"> <!--- style attribute is for debug -->
+      <div class="upper-container-desktop">
+        <a class="wis-banner-container" href="#" target="_blank"><img src="./images/logos/logos-v2-03.png" class="wis-banner-image" id="wis-banner-image" onmouseover="logoChangeColor()" onmouseout="logoChangeColorReverse()"></a>
+        <div class="nav-links-container">   <!--- nav desktop -->
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.html#news">News</a>
+          <a class="nav-link" href="about.html">About</a>
+        </div>
+      </div>
+      <div class="mid-container-desktop" style="margin-top: 10.25vmax; padding-top: 3.25vmax;" id="article">
+        <div class="article-container-desktop">  <!--- constitudes one article -->            
+          <div class="article-header-container-desktop">
+            <h1 class="article-header-desktop">
+              Mustache Band performs at WIS!
+            </h1>
+            <h2 class="article-date-desktop">
+              28/10/2019
+            </h2>
+            <div class="article-author-desktop">
+              <img src="./images/avatars/masaya.jpg" class="author-avatar-desktop">
+              <div style="margin-left: 1.25vmax; font-family: var(--subhead); color: #333333; padding: .5vmax; border-radius: .25vmax;"><h2 style="font-weight: bold; display: inline;">Author: </h2>Shida Masaya</div>
+            </div>
+          </div>
+          <div class="article-contents-desktop">
+            <p class="article-content-text-desktop">
+              One of the most popular bands in Cambodia performs at Western's Stadium campus for Halloween 2019.
+            </p>
+            <div class="article-image-container-desktop">
+              <img src="./images/mustache-band.jpg" class="article-image-desktop"></img>
+              <p class="article-image-caption-desktop">
+                Cambodia's distinguished artists.
+              </p>
+            </div>
+          </div>
+          <div class="article-prev-next-container-desktop" style="display: flex; width: 90%; justify-content: flex-end; margin-top:3.25vmax;">
+            <a class="nav-link" href="article-2-t.html#article">Next Article ></a>
+          </div>
+          <div class="article-comments-container-desktop">
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- desktop end -->
     <!--- tablet start -->
     <div class="parent-container-tablet">
       <div class="upper-container-tablet"> <!--- upper container, contains cover photo and nav button --->
@@ -72,6 +117,9 @@
                 Cambodia's distinguished artists.
               </p>
             </div>
+          </div>
+          <div class="article-prev-next-container-desktop" style="display: flex; width: 90%; justify-content: flex-end; margin-top:3.25vmax;">
+            <a class="nav-link" href="article-2-t.html#article">Next ></a>
           </div>
           <div class="article-comments-container-tablet">
             <div id="disqus_thread"></div>

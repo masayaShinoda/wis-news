@@ -141,6 +141,19 @@ body {
                   max-height: 2.75vmax;
                   margin-right: 1.75vmax;
                 }
+                .nav-link {
+                  display: block;
+                  text-decoration: none;
+                  padding: 1.5vmin 1.75vmax;
+                  margin-left: 1.75vmax;
+                  font-size: 18px;
+                  font-family: var(--head);
+                  color: white;
+                  background: var(--Maya);
+                  box-shadow: var(--button-shadow);
+                  border-radius: 1.5vmax;
+                  transition: .4s;
+                } 
                 .open-nav-container-tablet {
                     display: flex;
                     margin-left: 13.33vmin;
