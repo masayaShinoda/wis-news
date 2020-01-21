@@ -353,9 +353,12 @@ body {
         }
         .article-author-tablet {
           display: flex;
+          align-items: center;
+          margin-top: 1.75vh;
         }
           .author-avatar-tablet {
             max-width: 64px;
+            border-radius: 100%;
           }
       .article-contents-tablet {
         display: flex;
