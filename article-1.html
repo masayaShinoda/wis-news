@@ -27,7 +27,7 @@
     <!---  desktop start -->
     <div class="parent-container-desktop"> <!--- style attribute is for debug -->
       <div class="upper-container-desktop">
-        <a class="wis-banner-container" href="#" target="_blank"><img src="./images/logos/logos v2-03.png" class="wis-banner-image"></a>
+        <a class="wis-banner-container" href="#" target="_blank"><img src="./images/logos/logos v2-03.png" class="wis-banner-image" id="wis-banner-image" onmouseover="logoChangeColor()" onmouseout="logoChangeColorReverse()"></a>
         <div class="nav-links-container">   <!--- nav desktop -->
           <a class="nav-link" href="index.html">Home</a>
           <a class="nav-link" href="index.html#news">News</a>
@@ -45,7 +45,7 @@
             </h2>
             <div class="article-author-desktop">
               <img src="./images/avatars/masaya.jpg" class="author-avatar-desktop">
-              <div style="margin-left: 1.25vmax; font-family: var(--subhead);"><h2 style="font-weight: bold; display: inline;">Author: </h2>Shida Masaya</div>
+              <div style="margin-left: 1.25vmax; font-family: var(--subhead); color: #333333; padding: .5vmax; border-radius: .25vmax;"><h2 style="font-weight: bold; display: inline;">Author: </h2>Shida Masaya</div>
             </div>
           </div>
           <div class="article-contents-desktop">
@@ -144,6 +144,7 @@
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <script src="wis-news-site-desktop.js"></script>
   <script src="wis-news-site-mobile.js"></script>
   <script src="wis-news-site-tablet.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>  

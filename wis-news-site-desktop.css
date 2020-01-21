@@ -73,12 +73,8 @@ body {
             @keyframes logo-banner-appear {
               0% {margin-bottom: 10vmax;}
             }     
-              .wis-banner-container:hover {
-                  box-shadow: .75vmin .125vmax .75vmax var(--Maya);
-                  transition: .4s;
-              }
               .wis-banner-image {
-                  max-width: 5vmax;
+                  max-width: 5.75vmax;
                   border-radius: 100%;
                   box-shadow: var(--button-shadow);
               }

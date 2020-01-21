@@ -353,6 +353,15 @@ body {
           background: var(--darker);
           border-radius: 0 0 1.25vmax 1.25vmax;          
         }
+        .article-author-mobile {
+          display: flex;
+          align-items: center;
+          margin-top: 1.75vh;
+        }
+          .author-avatar-mobile {
+            max-width: 64px;
+            border-radius: 100%;
+          }
       .article-contents-mobile {
         display: flex;
         flex-direction: column;
