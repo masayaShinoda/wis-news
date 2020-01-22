@@ -161,7 +161,7 @@ body {
                     margin-top: 18.6vmin;
                     max-width: 20vmin;
                     max-height: 20vmin;
-                    position: fixed;
+                  
                     top: 0;
                     z-index: 1;
                     animation-name: nav-appear;
