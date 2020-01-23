@@ -128,6 +128,45 @@
     </div>
     <!--- tablet end -->
 
+    <!--- mobile start --->
+    <div class="parent-container-mobile"> <!--- 404 mobile -->
+      <div class="upper-container-mobile"> <!--- upper container, contains cover photo and nav button --->
+        <div id="nav-overlay">
+          <div class="close-nav-container">
+            <div class="close-nav-button" onclick="closeNav()">
+              <div class="x">+</div>
+            </div>
+            <div class="nav-links-container-mobile">  <!--- nav mobile -->
+              <a class="nav-link-mobile" href="index.html"><img src="./images/icons/home-icon@4x.png" class="nav-icon-mobile">Home</a>
+              <a class="nav-link-mobile" href="articles.html"><img src="./images/icons/news-icon@4x.png" class="nav-icon-mobile">News</a>
+              <a class="nav-link-mobile" href="about.html"><img src="./images/icons/about-icon@4x.png" class="nav-icon-mobile">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="open-nav-container">
+          <div class="open-nav-button" id="openNavButton" onclick="openNav(); colorChangeBurgers()" onmouseout="colorChangeBurgersReverse()">
+            <div class="burger-top" id="burgerTop"></div>
+            <div class="burger-mid" id="burgerMid"></div>
+            <div class="burger-bottom" id="burgerBottom"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mid-container-mobile" style="margin-top: 25vmin">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img src="./images/icons/pika-suprised@4x.png" alt="pika suprised.png" style="max-width: 25vmax; animation-name: arrows-attention-grab, rotate-z; animation-duration: 3s;">  
+            <div style="display: flex; flex-direction: column; background: rgba(255,255,255,0.95); padding: 2.5vmax; border-radius: 2.5vmax; margin-top: -1.25vmin; max-width: 90vw;">
+                <h1 class="mobile-frontpage-head" style="text-align: left; margin: 0;">
+                    Error 404
+                </h1>
+                <p class="mobile-frontpage-subhead" style="background: none; color: #333333; padding: 0; text-shadow: none; animation: none; margin-top: 1.25vmax; box-shadow: none;">
+                    Uh oh the page you're looking for is either unavailable or under construction!
+                </p>
+            </div>            
+        </div>
+      </div>
+    </div>
+    <!--- mobile end -->
+    
   <script>
 
   /**
