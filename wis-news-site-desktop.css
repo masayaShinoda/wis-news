@@ -36,13 +36,13 @@ body {
   .parent-container-desktop {
     display: flex;
     width: 100vw;
-    flex-direction: column;    
+    flex-direction: column;
     align-items: center;
-    background: url("./images/wis-background-darkened.jpg");    
+    background: url("./images/wis-background-darkened.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;
   }
   .parent-container-mobile {
     display: none;  /* cancel out mobile markup */
@@ -65,14 +65,14 @@ body {
               margin-left: -2.5vmax;
               border-radius: 100%;
 
-              transition: .4s;              
+              transition: .4s;
               animation-name: logo-banner-appear;
               animation-play-state: forward;
-              animation-duration: 1.5s;  
-          }         
+              animation-duration: 1.5s;
+          }
             @keyframes logo-banner-appear {
               0% {margin-bottom: 10vmax;}
-            }     
+            }
               .wis-banner-image {
                   max-width: 5.75vmax;
                   border-radius: 100%;
@@ -84,7 +84,7 @@ body {
               max-width: 15.625vmax;
               animation-name: nav-links-appear;
               animation-duration: 3s;
-              animation-fill-mode: forwards;                
+              animation-fill-mode: forwards;
           }
               @keyframes nav-links-appear {
                   0% {margin-right: -25vmax;};
@@ -135,7 +135,7 @@ body {
             .front-page-banner-image {
               max-width: 27.5vmax;
               border-radius: 100%;
-              
+
             }
           .caligraphy {
               color: white;
@@ -159,7 +159,7 @@ body {
               max-width: 27.5vmax;
               margin: 3.25vmax 0;
               border-bottom: 0.125vmin solid var(--darker);
-          }                                
+          }
           .frontpage-subhead {
               font-family: 'Roboto', sans-serif;
               font-size: 18px;
@@ -167,7 +167,7 @@ body {
               /*text-align: center;*/
               line-height: 1.6;
               color: #333333;
-              max-width: 27.5vmax;              
+              max-width: 27.5vmax;
               /*background: rgba(255,255,255,.95);*/
               background: rgba(255,255,255,.975);
               padding: 1.75vmax;
@@ -193,7 +193,7 @@ body {
               animation-name: nav-links-appear;
               animation-duration: 2s;
               animation-play-state: forwards;
-              
+
           }
               .learn-more-button:hover {
                   color: var(--darker);
@@ -208,7 +208,7 @@ body {
               width: 100vw;
               /*height: 200vmin; /* debug */
               background: rgb(245,245,245);
-              
+
           }
 
 
@@ -278,7 +278,7 @@ body {
           flex-wrap: wrap;
           /*border: 1px solid red; /* debug */
       }
-      .post-module {            
+      .post-module {
           position: relative;
           z-index: 1;
           display: block;
@@ -392,7 +392,7 @@ body {
           /*font-size: 20px;*/
           font-size: 16px; /* maya code */
           font-weight: 400;
-          font-family: var(--subhead); /* maya code */            
+          font-family: var(--subhead); /* maya code */
         }
         .post-module .post-content .description {
           display: none;
@@ -430,6 +430,7 @@ body {
         .container .column {
           width: 50%;
           padding: 0 25px;
+          margin-top: 5vh;
           -webkti-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -506,7 +507,7 @@ body {
         font-size: 14px;
         color: white;
         background: var(--darker);
-        border-radius: 0 0 1.25vmax 1.25vmax;          
+        border-radius: 0 0 1.25vmax 1.25vmax;
       }
       .article-author-desktop {
         display: flex;
@@ -525,7 +526,7 @@ body {
         font-family: var(--body);
         color: #333333;
         font-size: 16px;
-        line-height: 1.6;     
+        line-height: 1.6;
         max-width: 42.5vw;
       }
       .article-image-container-desktop {
@@ -556,4 +557,3 @@ body {
       margin-top: 5vmax;
       max-width: 47.5vmax;
     }
-    
