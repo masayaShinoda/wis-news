@@ -522,6 +522,15 @@ body {
       display: flex;
       flex-direction: column;
     }
+      .article-content-heading-desktop {
+        font-family: var(--subhead);
+        font-weight: 600;
+        color: #333333;
+        font-size: 24px;
+        line-height: 1.6;
+        max-width: 42.5vw;
+        padding: 1.25vmax 0;
+      }
       .article-content-text-desktop {
         font-family: var(--body);
         color: #333333;
@@ -550,6 +559,7 @@ body {
           margin-top: 1.25vmin;
           font-family: var(--subhead);
           font-style: italic;
+          line-height: 1.5;
         }
     .article-comments-container-desktop {
       /*border: 1px solid red; /* debug */
